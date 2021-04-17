@@ -1,0 +1,179 @@
+body {
+    width: 1400px;
+    height: 800px;
+    background-color: #ff7979;
+    background-image: url(images/bg-intro-desktop.png);
+    background-repeat: none;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    min-width: 650px;
+}
+
+h1 {
+color: white;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 34px;
+font-weight: 750;
+}
+
+#description {    
+    font-family: Arial, Helvetica, sans-serif;    
+    width: 450px; 
+    float: left; 
+    margin-top: 305px;
+    margin-left: 165px;
+    color: white;      
+}
+
+#formDiv {
+    float: right;     
+    width: 540px; 
+    height: 475px;
+    /* margin: 120px 165px 120px; */
+    margin-right: 165px;
+    margin-top: 120px; 
+    margin-bottom: 120px;
+    color: white;    
+}
+
+#formHeader {
+    background-color: #5d54a3; 
+    width: 530px;
+    margin-bottom: 25px;    
+    padding-right: 5px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 0px 7px #e66d6d;
+}
+
+form {    
+    width: 540px; 
+    height: 475px;
+    border-radius: 5px;
+    background-color: white;
+    margin-right: 100px;
+    padding-top: 40px;  
+    box-shadow: 0px 7px #e66d6d;
+}
+
+.textfield {
+    -webkit-box-sizing: border-box; 
+    -moz-box-sizing: border-box;    
+    box-sizing: border-box;
+    height: 55px;
+    width: 458px; 
+    border-width: 1px; 
+    border-color: rgb(223, 219, 219);  
+    border-radius: 5px;   
+    margin: 0px 40px 20px 40px;    
+    padding-left: 20px;
+}
+
+.textfield:focus { 
+    outline: none !important;
+    border-color: #5d54a3;    
+}
+
+#para1 {
+    font-size: 16px;   
+    line-height: 1.6;         
+}
+
+#para2 {
+    font-size: 14px;
+}
+
+#para3 {
+    font-size: 10px;
+    text-align: center;
+    margin: 20px 40px 45px;
+    color: #bcbac7;
+    line-height: 1.6;
+}
+
+#submit {
+    color: white;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    background-color: #37cc8a;
+    border-radius: 5px;
+    border: none;    
+    width: 460px;
+    box-shadow: 0px 3px #2aaf76;
+}
+
+b {
+    color: #f79393;
+}
+
+
+/*---------------------- Media Query ----------------------*/
+
+
+@media screen and (max-width: 500px){
+    body {        
+        background-image: url(images/bg-intro-mobile.png);
+        min-width: 250px;
+        max-width: 375px;        
+    }
+    
+    #description {       
+        -webkit-box-sizing: border-box; 
+        -moz-box-sizing: border-box;    
+        box-sizing: border-box;  
+        margin: 50px 31px 0px 25px;        
+        width: 300px;
+        text-align: center;        
+        padding: 10px;
+    }
+
+    #formHeader {        
+        -webkit-box-sizing: border-box; 
+        -moz-box-sizing: border-box;    
+        box-sizing: border-box;
+        width: 320px;
+        height: 88px;     
+        padding: 15px 60px 25px 60px;
+    }
+
+    #formDiv {        
+        clear: both;
+        float: left;    
+        height: 400px;      
+        width: 320px; 
+        margin: 30px 24px 70px 20px;
+    }
+
+    .textfield {
+        width: 278px;
+        height: 55px;
+        margin: 0px 25px 15px 20px;        
+    }
+
+    form {        
+        height: 400px;
+        width: 320px;        
+        padding-top: 25px;
+        margin-bottom: 50px;
+    }
+
+    #submit {
+        width: 278px
+    }
+
+    #para3 {        
+        margin-top: 0px;
+        margin-left: 60px;
+        margin-bottom: 10px;        
+        width: 200px;
+        text-align: center;
+    }
+
+    h1 {
+        color: white;        
+        font-weight: bold;
+    }
+}
